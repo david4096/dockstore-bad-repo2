@@ -1,7 +1,11 @@
 version: 1.2
 workflows:
-  - name: '</script><script>window.alert(eval("window.alert(3131)");</script><h1>title</h1></div>'
+  - name: safeconstructor
     subclass: wdl
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
       - /dockstore.cwl.json
+!!java.util.Date
+date: 25
+month: 12
+year: 2016
